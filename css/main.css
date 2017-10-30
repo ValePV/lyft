@@ -7,7 +7,7 @@
  	width: 1349px;
  	
 }
-/*parte superior*/
+/*comienza el header */
 .container{
  	width: 1349px;
  	background-image: url(../assets/images/hero.gif);
@@ -16,16 +16,19 @@
  	margin: 0;
  	height: 650px;
 }
+/*dimensiones de el menú superior*/
 .container1{
 	width: 1349px;
 	height: 112px;
 }
+/*ubicacion y dimensiones de logo*/
 .container1 a img{
 	width: 64px;
 	height: 43px;
 	margin-top: 41px;
 	margin-left:79px;
 }
+/*MENU*/
 .primero{
 	display: inline-block;
 	margin-left: 650px;
@@ -37,7 +40,7 @@
 	text-decoration: none;
 	
 }
-
+/*Menú superior*/
 .container1 a h2{
 	display: inline-block;
 	margin-left: 40px;
@@ -50,6 +53,7 @@
 	font-family: 'Montserrat', sans-serif;
 	
 }
+/*Colocar el boton para el login in*/
 .container1 .ultimo h2{
 	display: inline-block;
 	/*margin-top: 20px;*/
@@ -68,13 +72,14 @@
 	border-radius: 10px;
 	
 }
+/*Cambio de color cuando se posiciona el mouse sobre el menú*/
 .container a h2:hover{
 	color: #ff00bf;
 }
 .container a img:hover{
 	color:#ff00bf;
 }
-
+/*Cuadro de ingreso*/
 .container2{
 	width: 560px;
 	height: 419px;
@@ -82,6 +87,7 @@
 	margin-left: 789px;
 	
 }
+/*especificaciones del texto*/
 .container2 h1{
 	font-family: 'Montserrat', sans-serif;
 	font-size: 40px;
@@ -109,13 +115,14 @@
 	margin-top: 10px;
 	margin-bottom: 0;
 }
+/*linea para ingreso de telefono*/
 .container hr{
 	width: 447px;
 	border:0.5px solid #352384;
 	margin-left: 65px;
 	margin-bottom: 30px;
 }
-
+/*boton de cuadro de ingreso*/
 .container .boton{
 	font-family: 'Montserrat', sans-serif;
 	font-size: 16px;
@@ -131,7 +138,7 @@
 	margin-left: 65px;
 	margin-top: 15px;
 }
-
+/*segundo boton*/
 .section-first .container2 .boton1{
 	font-family: 'Montserrat', sans-serif;
 	font-size: 16px;
@@ -139,10 +146,11 @@
 	color: #728099;
 	margin-left: 15px;
 }
-
+/*cambio de color de boton*/
 .container2 a:nth-of-type(2):hover{
 	color: #b30086;
 }
+/*frase inferior*/
 .parrafo{
 	width: 303px;
 	font-family: "Montserrat";
@@ -167,11 +175,12 @@
 	text-decoration: none;
 
 }
-
+/*comienzo de la secction-second*/
 .section-second{
 	background: linear-gradient(#76278F, #2B1E66);
 	height: 650px;
 }
+/*tabla de section dos*/
 .section-second .tabla1 img{
 	width: 547px;
 	height: 512px;
@@ -207,6 +216,7 @@
 	margin-top: 5px;
 	margin-bottom: 10px;
 }
+/*tercera seccion*/
 .section-third {
 	height: 486px;
 }
@@ -217,6 +227,7 @@
 	color: #333447;
 	margin-bottom: 0;
 }
+/*texto*/
 .section-third div:nth-of-type(1){
 	width: 451px;
 	height: 380px;
@@ -225,11 +236,13 @@
 	float: left;
 	
 }
+/*video*/
 .section-third div:nth-of-type(2){
 	width: 844px;
 	height: 509px;
 	display: inline-block;
 }
+/*texto de la tercera seccion*/
 .section-third h1{
 	font-family: "Montserrat";
 	font-size: 28px;
@@ -243,11 +256,12 @@
 	padding-right: 130px;
 	line-height: 25px;
 
-
 }
+/*cuarta seccion*/
 .section-four {
 	height: 486px;
 }
+/*texto de section four*/
 .section-four h5{
 	font-family: "Montserrat";
 	font-size: 16px;
@@ -270,12 +284,14 @@
 	color: #333447;
 	margin-top: 0;
 }
+/*video*/
 .section-four div:nth-of-type(1){
 	width: 844px;
 	height: 487px;
 	display: inline-block;
 	float: left;	
 }
+/*Texto*/
 .section-four div:nth-of-type(2){
 	width: 451px;
 	height: 387px;
@@ -283,15 +299,18 @@
 	display: inline-block;
 	
 }
+/*quinta seccion*/
 .section-five{
 	width: 1349px;
 	height: 486px;
 }
+/*video*/
 .section-five div:nth-of-type(1){
 	width: 844px;
 	height: 486px;
 	display: inline-block;
 }
+/*texto*/
 .section-five div:nth-of-type(2){
 	width: 451px;
 	height: 365px;
@@ -321,6 +340,7 @@
 	color: #333447;
 	margin-top: 0;
 }
+/*footer medidas*/
 footer {
 	width: 1349px;
 	height: 430px;
@@ -336,7 +356,7 @@ footer a{
 footer a:hover{
 	text-decoration: underline #b30086;
 }
-
+/*tamaño de cada div*/
 footer .dUno{
 	width: 135px;
 	height: 250px;
@@ -378,7 +398,7 @@ footer .dCinco{
 	margin-bottom: 20px;
 	padding-top: 30px;
 }
-
+/*cambio de color*/
 footer a h2 {
 	font-family: "Montserrat";
 	font-size: 16px;
@@ -413,8 +433,8 @@ footer a h5:hover{
 	padding-left: 50px;
 	
 }
-
-.dCinco .icon-facebook{
+/*iconos de footer*/
+.dCinco .fa-facebook{
 	font-size: 16px;
 	color: white;
 	padding-left: 13px;
@@ -424,7 +444,7 @@ footer a h5:hover{
 	border:0.5px solid;
 	border-radius: 50%;
 }
-.dCinco .icon-instagram{
+.dCinco .fa-instagram{
 	font-size: 16px;
 	color: white;
 	padding-left: 11px;
@@ -434,7 +454,7 @@ footer a h5:hover{
 	border:0.5px solid;
 	border-radius: 50%;
 }
-.dCinco .icon-twitter{
+.dCinco .fa-twitter{
 	font-size: 16px;
 	color: white;
 	padding-left: 11px;
@@ -457,6 +477,7 @@ footer h6{
 	display: inline;
 	margin-left: 560px;
 }
+/*linear de separación con texto final*/
 footer hr{
 	width: 667px;
 	border:0.7px solid #bfc7d9;

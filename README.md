@@ -90,3 +90,15 @@ Este reto será evaluado sobre lo siguiente:
 * Indentación
 * Archivo `README.md` actualizado y correctamente redactado
 * Uso de comentarios para hacer tu código más legible
+
+## Pasos seguidos 
++ Estructurar html
++ Nombrar las clases necesarias para identificar partes de la maqueta
++ Colocar imagenes de fondo con su respectiva ruta
++ Colocar videos necesarios con su respectiva ruta
++ Enlazar links de fuente requerida y aplicar a los textos
++ Modificar dimensión y color de las funtes requeridas
++ Cuadrar texto con las imagenes
++ Insertar imagenes de productos con respectivas rutas, modificar dimensiones, cuadrar con textos.
++ Modificar fondo y fuente de pie de página
+
